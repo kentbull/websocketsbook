@@ -4,6 +4,8 @@
   "version": "0.0.2",
   "private": true,
   "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^9.0.1",
     "ws": "~8.16.0"
   }
 }

@@ -1,6 +1,6 @@
 var WebSocketServer = require('ws').Server,
     wss = new WebSocketServer({port: 8181});
-var uuid = require('node-uuid'),
+var uuid = require('uuid'),
    _     = require('lodash')._;
 
 var stocks = {
@@ -71,4 +71,4 @@ wss.on('connection', function(ws) {
     });
 });
 
-console.log("wtf");
+console.log("Server started on port 8181");
